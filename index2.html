@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+a:focus {
+  outline: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  background-color: #e1eef4;
+  padding: 10px;
+}
+
+
+
+
+#kaart {
+  float: left;
+  margin: 30px;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: url(bg1.gif) 0 0 no-repeat;
+}
+	#kaart li a {
+	  position: absolute;
+	  text-decoration: none;
+	  background: url(bg2.gif) 800px 0 no-repeat;
+	}
+	  /*IE trigger*/
+	#kaart li a:hover {
+  	  visibility: visible;
+	}
+
+
+#kaart a span {
+  position: absolute; 
+  left: -9000em;
+  padding:  2px 5px; 
+  color: #000;
+  text-align: center;
+  font: normal .8em/1em palatino, georgia, "times new roman", serif;
+  background-color: #fbeb92;
+  border: 1px solid #000;
+  white-space: nowrap;
+}
+
+#kaart a:hover span, #kaart a:focus span, #kaart a:active span {
+  left: 60px;
+  top: 10px;
+}
+
+
+	a#blk {
+  	  width: 146px;
+  	  height: 153px;
+	  top: 54px;
+	  left: 60px;
+	}
+	a#blk:hover, a#blk:focus, a#blk:active {
+  	  background-position: -60px -54px;
+	}
+
+
+	a#grn {
+  	  width: 283px;
+  	  height: 191px;
+ 	  top: 67px;
+  	  left: 247px;
+	}
+	a#grn:hover, a#grn:focus, a#grn:active {
+	  background-position: -247px -67px;
+	}
+
+
+	a#blu {
+  	  width: 162px;
+  	  height: 235px;
+  	  top: 63px;
+  	  left: 585px;
+	}
+	a#blu:hover, a#blu:focus, a#blu:active {
+  	  background-position: -585px -63px;
+	}
+
+	a#red {
+  	  width: 252px;
+  	  height: 202px;
+  	  top: 330px;
+  	  left: 49px;
+	}
+	a#red:hover, a#red:focus, a#red:active {
+	  background-position: -49px -330px;
+	}
+
+	a#org {
+  	  width: 79px;
+  	  height: 227px;
+  	  top: 321px;
+  	  left: 422px;
+	}
+	a#org:hover, a#org:focus, a#org:active {
+	  background-position: -422px -321px;
+	}
+
+	a#fio {
+  	  width: 108px;
+  	  height: 89px;
+  	  top: 404px;
+  	  left: 611px;
+	}
+	a#fio:hover, a#fio:focus, a#fio:active {
+	  background-position: -611px -404px;
+	}
+
+  </style>
+
+</head>
+
+
+<body>
+  <ul id="kaart">
+    <li><a id="blk" href="#1"><span>чёрная переговорка</span></a></li>
+    <li><a id="grn" href="#2"><span>залёный кабинет</span></a></li>
+    <li><a id="blu" href="#3"><span>синий кабинет</span></a></li>
+    <li><a id="red" href="#4"><span>красный кабинет</span></a></li>
+    <li><a id="org" href="#5"><span>оранжевый коридор</span></a></li>
+    <li><a id="fio" href="#6"><span>фиолетовая переговорка</span></a></li>
+  </ul>
+
+</body>
+
+</html>
