@@ -128,6 +128,12 @@ body {
 	  background-position: -611px -404px;
 	}
 
+	#test { color: red;
+	}
+	#test:hover, #test:focus, #test:active {
+	}
+
+
   </style>
 
 </head>
@@ -142,6 +148,18 @@ body {
     <li><a id="org" href="#5"><span>оранжевый коридор</span></a></li>
     <li><a id="fio" href="#6"><span>фиолетовая переговорка</span></a></li>
   </ul>
+
+
+<img id="reserve" src="plan.png" usemap="#reserve" border="0" width="960" height="450" alt="" />
+<map id="reserve" name="reserve">
+<area shape="poly" coords="50,147,34,92,85,81,95,137" href="#555" alt="Red room" title="Red room" onMouseOver="if(document.images) document.getElementById('reserve').src='k01.png';" onMouseOut="if(document.images) document.getElementById('reserve').src='plan.png';"  />
+<area shape="poly" coords="284,35,368,34,368,89,284,89" href="#666" alt="Blue room" title="Blue room" onMouseOver="if(document.images) document.getElementById('reserve').src='k02.png';" onMouseOut="if(document.images) document.getElementById('reserve').src='plan.png';"  />
+
+
+</map>
+
+
+
 
 </body>
 
